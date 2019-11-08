@@ -11,6 +11,8 @@ end
 
 =begin shift=alt=a
 
+OVDJE SE KORISTI STARI SERIALIZER
+
 class UserSerializer < ActiveModel::Serializer
   attributes :id, :name, :username, :hometown
 end
